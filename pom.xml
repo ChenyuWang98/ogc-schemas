@@ -121,7 +121,7 @@
 	<properties> 
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding> 
 		<jaxb2-basics.version>2.0.15</jaxb2-basics.version>
-		<jaxb.version>2.2.11</jaxb.version>
+		<jaxb.version>2.3.9</jaxb.version>
 		<maven-jaxb-plugin.version>2.0.15</maven-jaxb-plugin.version>
 		<w3c-schemas.version>1.4.0</w3c-schemas.version>
 		<jsonix-schema-compiler.version>2.3.8</jsonix-schema-compiler.version>
@@ -179,7 +179,7 @@
 				<scope>provided</scope>
 			</dependency>
 			<dependency>
-				<groupId>javax.xml.bind</groupId>
+				<groupId>org.glassfish.jaxb</groupId>
 				<artifactId>jaxb-api</artifactId>
 				<version>${jaxb.version}</version>
 			</dependency>
