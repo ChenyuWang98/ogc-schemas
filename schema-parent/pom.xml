@@ -115,7 +115,7 @@
 								<artifactId>jaxb2-basics-annotate</artifactId>
 							</plugin>
 							<plugin>
-								<groupId>org.jvnet.jaxb</groupId>
+								<groupId>org.jvnet.jaxb2_commons</groupId>
 								<artifactId>jaxb2-fluent-api</artifactId>
 							</plugin>
 							<!--plugin>
