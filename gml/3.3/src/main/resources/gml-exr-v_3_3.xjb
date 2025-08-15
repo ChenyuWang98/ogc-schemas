@@ -2,7 +2,7 @@
 	xmlns:xs="http://www.w3.org/2001/XMLSchema" 
 	xmlns:xjc="http://java.sun.com/xml/ns/jaxb/xjc"
 	xmlns:wildcard="urn:jaxb.jvnet.org:plugin:wildcard"
-	xmlns:annox="http://annox.dev.java.net"
+	xmlns:annox="urn:jaxb.jvnet.org:annox"
 	jaxb:extensionBindingPrefixes="xjc wildcard annox">
 
 	<jaxb:bindings schemaLocation="http://schemas.opengis.net/gml/3.3/extdEncRule.xsd" 
