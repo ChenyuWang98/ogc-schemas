@@ -12,7 +12,7 @@
 	</parent>
 	<dependencies>
 		<dependency>
-			<groupId>org.jvnet.jaxb2_commons</groupId>
+			<groupId>org.jvnet.jaxb</groupId>
 			<artifactId>jaxb2-basics-runtime</artifactId>
 		</dependency>
 		<dependency>
@@ -107,15 +107,15 @@
 						</args>
 						<plugins>
 							<plugin>
-								<groupId>org.jvnet.jaxb2_commons</groupId>
+								<groupId>org.jvnet.jaxb</groupId>
 								<artifactId>jaxb2-basics</artifactId>
 							</plugin>
 							<plugin>
-								<groupId>org.jvnet.jaxb2_commons</groupId>
+								<groupId>org.jvnet.jaxb</groupId>
 								<artifactId>jaxb2-basics-annotate</artifactId>
 							</plugin>
 							<plugin>
-								<groupId>org.jvnet.jaxb2_commons</groupId>
+								<groupId>org.jvnet.jaxb</groupId>
 								<artifactId>jaxb2-fluent-api</artifactId>
 							</plugin>
 							<!--plugin>
