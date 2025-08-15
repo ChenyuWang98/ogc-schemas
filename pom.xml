@@ -120,9 +120,9 @@
 	</profiles>
 	<properties> 
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding> 
-		<jaxb2-basics.version>2.0.15</jaxb2-basics.version>
-		<jaxb.version>2.3.9</jaxb.version>
-		<maven-jaxb-plugin.version>2.0.15</maven-jaxb-plugin.version>
+		<jaxb-plugins.version>3.0.0</jaxb-plugins.version>
+		<jaxb.version>3.0.2</jaxb.version>
+		<maven-jaxb-plugin.version>3.0.0</maven-jaxb-plugin.version>
 		<w3c-schemas.version>1.4.0</w3c-schemas.version>
 		<jsonix-schema-compiler.version>2.3.8</jsonix-schema-compiler.version>
 		<jsonix.version>2.4.0</jsonix.version>
@@ -154,18 +154,18 @@
 			</dependency>
 			<dependency>
 				<groupId>org.jvnet.jaxb</groupId>
-				<artifactId>jaxb2-basics</artifactId>
-				<version>${jaxb2-basics.version}</version>
+				<artifactId>jaxb-plugins</artifactId>
+				<version>${jaxb-plugins.version}</version>
 			</dependency>
 			<dependency>
 				<groupId>org.jvnet.jaxb</groupId>
-				<artifactId>jaxb2-basics-runtime</artifactId>
-				<version>${jaxb2-basics.version}</version>
+				<artifactId>jaxb-plugins-runtime</artifactId>
+				<version>${jaxb-plugins.version}</version>
 			</dependency>
 			<dependency>
 				<groupId>org.jvnet.jaxb</groupId>
 				<artifactId>jaxb-basics-annotate</artifactId>
-				<version>2.0.15</version>
+				<version>3.0.0</version>
 			</dependency>
 			<dependency>
 				<groupId>com.massfords</groupId>
